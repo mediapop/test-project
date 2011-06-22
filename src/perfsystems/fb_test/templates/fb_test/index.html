@@ -1,0 +1,14 @@
+{% load i18n %} 
+<!DOCTYPE html>
+<html xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+</head>
+<body>
+
+	hello world
+
+	<script type="text/javascript" src="http{% if request.is_secure %}s{% endif %}://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http{% if request.is_secure %}s{% endif %}://connect.facebook.net/en_US/all.js"></script>
+
+</body>
+</html>
