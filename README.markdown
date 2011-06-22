@@ -2,6 +2,7 @@ Install instructions (these are for Linux or OSX):
 ==================================================
 
 You'll need python, git, mysql, distutils, setuptools, pip and virtualenv installed.
+
 * http://www.python.org/download/releases/2.7.1/
 * http://git-scm.com/download
 * http://www.mysql.com
